@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container{
+    
+}
+
+body{
+    margin: 40px;
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(105, 102, 102);
+}
+
+.pagina-inicial{
+
+}
+.pagina-inicial .apresentacao h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.pagina-inicial .apresentacao p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.pagina1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.pagina1 .info{
+    max-width: 400px;
+}
+.pagina1 .info h1{
+    text-align: center;
+}
