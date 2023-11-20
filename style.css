@@ -7,34 +7,74 @@
 }
 
 body{
-    margin: 40px;
+    margin: 0;
     font-family: 'Inter', sans-serif;
-    background-color: rgb(105, 102, 102);
+    background-color:#E3CDCD;
 }
 
-.pagina-inicial{
-
-}
-.pagina-inicial .apresentacao h1{
-    font-family: 'Pacifico', cursive;
-    font-size: 50px;
-    text-align: center;
-}
-.pagina-inicial .apresentacao p{
-    font-size: 20px;
-    text-align: center;
-}
-
-.pagina1{
+.info-raca{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 50px;
 }
 
-.pagina1 .info{
-    max-width: 400px;
+.img-cat img{
+    height: 100vh;
 }
-.pagina1 .info h1{
+
+/*DESCRIÇÃO DA RAÇA*/
+
+
+/*CARACTERÍSTICA DA RAÇA*/
+.caracteristica-raca h2{
+    color: #583131;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    padding: 13px 20px;
+}
+tr td:first-child{
+    width: 70%
+}
+tr td:last-child{
+    width: 30%;
+    text-align: right; 
+}
+td svg{
+    margin-right: 3px;
+}
+.patinha-rosa path{
+    fill: #E0A2A2;
+}
+tr:nth-child(even){
+    background-color: #F6D5D5;
+}
+.caracteristica-raca svg{
+    
+}
+/*PELAGEM DA RAÇA*/
+.desc-pelagem h2{
+    color: #583131;
+}
+.desc-pelagem p{
+    font-weight: 300;
+}
+
+/*EXPECIFICAÇÕES DA RAÇA*/
+.titulo-expecificacoes{
+    color: #583131;
+}
+.agrupe-expecificacao{
+    display: flex;
+    gap: 80px;
+}
+.info-expecificacoes{
     text-align: center;
+}
+.info-expecificacoes svg{
+    margin-bottom: 15px;
+}
+.info-expecificacoes p , .info-expecificacoes h3{
+    margin: 0;
 }
