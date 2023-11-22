@@ -7,8 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
 
 @font-face{
-    font-family: 'FivoSans', serif;
-    src: url(./Fonts/FivoSans/FivoSans-Regular.otf);
+    font-family: 'Fivo Sans';
+    src: url(./Fonts/FivoSans/FivoSans-Bold.otf);
 }
 
 
@@ -63,7 +63,7 @@ hr{
 
 /*CARACTERÍSTICA DA RAÇA*/
 .caracteristica-raca h2{
-    font-size: 'Fivo Sans' , serif;
+    font-family: 'Fivo Sans' , serif;
     color: #583131;
 }
 table{
@@ -92,17 +92,22 @@ tr:nth-child(even){
 }
 /*PELAGEM DA RAÇA*/
 .desc-pelagem h2{
-    font-family: 'FivoSans' , serif;
+    font-family: 'Fivo Sans' , serif;
     color: #583131;
 }
 
 /*EXPECIFICAÇÕES DA RAÇA*/
+
 .titulo-expecificacoes{
     color: #583131;
 }
+.titulo-expecificacoes h2{
+    font-family: 'Fivo Sans' , serif;
+}
 .agrupe-expecificacao{
     display: flex;
-    gap: 80px;
+    justify-content: center;
+    justify-content: space-between;
 }
 .info-expecificacoes{
     text-align: center;
