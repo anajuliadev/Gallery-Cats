@@ -6,6 +6,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
 
+@font-face{
+    font-family: 'FivoSans', serif;
+    src: url(./Fonts/FivoSans/FivoSans-Regular.otf);
+}
+
+
 
 .container{
     width: 100%;
@@ -34,6 +40,13 @@ body{
     height: 100vh;
 }
 
+/*PADRONIZAÇÃO*/
+hr{
+    border: 1px solid #583131;
+    border-radius: 10px;
+    margin: 40px 0px;
+}
+
 /*LARGURA DO SITE*/
 .page-width{
     margin: 70px;
@@ -47,8 +60,10 @@ body{
     color: #583131;
 }
 
+
 /*CARACTERÍSTICA DA RAÇA*/
 .caracteristica-raca h2{
+    font-size: 'Fivo Sans' , serif;
     color: #583131;
 }
 table{
@@ -59,7 +74,8 @@ td{
     padding: 13px 20px;
 }
 tr td:first-child{
-    width: 70%
+    font-weight: 500;
+    width: 70%;
 }
 tr td:last-child{
     width: 30%;
@@ -74,15 +90,10 @@ td svg{
 tr:nth-child(even){
     background-color: #F6D5D5;
 }
-.caracteristica-raca svg{
-    
-}
 /*PELAGEM DA RAÇA*/
 .desc-pelagem h2{
+    font-family: 'FivoSans' , serif;
     color: #583131;
-}
-.desc-pelagem p{
-    font-weight: 300;
 }
 
 /*EXPECIFICAÇÕES DA RAÇA*/
